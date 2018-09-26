@@ -1,6 +1,10 @@
 /* Author: Yidan Xu
  * stylesheet for Assignment 1, basic definitions for webpage.
  */
+        .top_bar {
+                background: #f3f3f3;
+                padding: 10px;
+        }
 
         .top_bar ul {
                 list-style-type: none;
@@ -31,8 +35,12 @@
         #bio h2 {
                 text-align: left;
         }
-
+        
+        #resume {
+                padding-left: 20px;
+        }
         #resume h2 {
+                padding-top: 45px;
                 text-align: center;
         }
         
@@ -40,7 +48,9 @@
                 font-variant: small-caps;
                 border-bottom: 1px solid;
                 padding: 0px;
+                padding-top: 25px;
                 margin: 0px;
+                margin-bottom: 5px;
         }
 
         #resume h4 {
