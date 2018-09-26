@@ -1,0 +1,23 @@
+/* Author: Yidan Xu
+ * stylesheet for Assignment 1, basic definitions for webpage.
+ */
+
+        .top_bar ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+        }
+        .top_bar li {
+                display: inline;
+                padding-right: 20px;
+        }
+
+
+        .headshot img {
+                float: left;
+                border: 1px solid; 
+                width: 360px;
+                height: 480px;
+                margin-right: 20px;
+        }
+
