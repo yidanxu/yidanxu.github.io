@@ -32,3 +32,49 @@
                 text-align: left;
         }
 
+        #resume h2 {
+                text-align: center;
+        }
+        
+        #resume h3 {
+                font-variant: small-caps;
+                border-bottom: 1px solid;
+                padding: 0px;
+                margin: 0px;
+        }
+
+        #resume h4 {
+                text-align: left;
+                padding: 0px;
+                margin: 0px;
+        }
+
+        .titles {
+                font-style: italic;
+                padding: 0px;
+                margin: 0px;
+                margin-bottom: 10px;
+                font-size: .83em;
+                float:left;
+        }       
+
+        .dates {
+                padding: 0px;
+                margin: 0px;
+                margin-bottom: 10px;
+                font-size: .83em;
+                float:right;
+       
+       }
+        
+        /*
+         * Could not figure out how to add line breaks after floating elements
+         * found out about clear here: https://stackoverflow.com/a/29073852
+         */
+
+       .break {
+               clear:both;
+       }
+
+
+
